@@ -61,6 +61,7 @@ export default function Home() {
     return (
         <div className="max-w-4xl mx-auto py-10 px-4">
             <h1 className="text-3xl font-bold mb-5">API Input</h1>
+           <h2 className="text-xl font-semibold mb-5" > developed by Suraj Diwedi RA2111004010440</h2>
             <textarea
                 rows="5"
                 className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
