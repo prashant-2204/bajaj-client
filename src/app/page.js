@@ -65,7 +65,7 @@ export default function Home() {
             <textarea
                 rows="5"
                 className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="Enter your JSON input here"
+                placeholder="Enter your JSON input here make"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
             />
@@ -80,7 +80,8 @@ export default function Home() {
 
             {response && (
                 <>
-                    <h2 className="text-2xl font-semibold mt-6 mb-3">Multi Filter</h2>
+                    <h2 className="text-2xl font-semibold mt-6 mb-3">Multi Filter </h2>
+                   <h3 className="text-sm font-semibold mt-6 mb-3">click on filter option below to see response </h2>
                     <div className="flex space-x-2 mb-5">
                         <button
                             className={`px-4 py-2 rounded-lg ${
