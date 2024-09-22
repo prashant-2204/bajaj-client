@@ -81,7 +81,7 @@ export default function Home() {
             {response && (
                 <>
                     <h2 className="text-2xl font-semibold mt-6 mb-3">Multi Filter </h2>
-                   <h3 className="text-sm font-semibold mt-6 mb-3">click on filter option below to see response </h2>
+                   <h3 className="text-sm font-semibold mt-6 mb-3">click on filter option below to see response </h3>
                     <div className="flex space-x-2 mb-5">
                         <button
                             className={`px-4 py-2 rounded-lg ${
